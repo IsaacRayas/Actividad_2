@@ -1,0 +1,24 @@
+From 29fe5de657bc1c1639b1c910cff7c8206b87e068 Mon Sep 17 00:00:00 2001
+From: IsaacRR <isaacrayasdr@gmail.com>
+Date: Mon, 3 Oct 2022 10:05:21 -0500
+Subject: [PATCH] Name change patch
+
+---
+ namepatch.patch | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 namepatch.patch
+
+diff --git a/namepatch.patch b/namepatch.patch
+new file mode 100644
+index 0000000..c0782b5
+--- /dev/null
++++ b/namepatch.patch
+@@ -0,0 +1,5 @@
++diff --git a/sl.h b/sl_IsaacRayas.h
++similarity index 100%
++rename from sl.h
++rename to sl_IsaacRayas.h
++
+-- 
+2.25.1
+
